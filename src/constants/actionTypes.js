@@ -1,0 +1,22 @@
+export const APP_LOAD = 'APP_LOAD';
+export const REDIRECT = 'REDIRECT';
+export const LOGIN = 'LOGIN';
+export const LOGOUT = 'LOGOUT';
+export const REGISTER = 'REGISTER';
+export const LOGIN_PAGE_UNLOADED = 'LOGIN_PAGE_UNLOADED';
+export const REGISTER_PAGE_UNLOADED = 'REGISTER_PAGE_UNLOADED';
+export const ASYNC_START = 'ASYNC_START';
+export const ASYNC_END = 'ASYNC_END';
+export const UPDATE_FIELD_AUTH = 'UPDATE_FIELD_AUTH';
+export const RESET_PASSWORD = 'RESET_PASSWORD';
+export const FORGOT_PASSWORD = 'FORGOT_PASSWORD';
+export const NOTIFICATION_UNLOADED = 'NOTIFICATION_UNLOADED';
+export const USER_PAGE_LOADED = 'USER_PAGE_LOADED';
+export const DELETE_USER = 'DELETE_USER';
+export const BULK_DELETE_USER = 'BULK_DELETE_USER';
+export const UPDATE_FIELD_USER = 'UPDATE_FIELD_USER';
+export const USER_PAGE_UNLOADED = 'USER_PAGE_UNLOADED';
+export const ADD_USER = 'ADD_USER';
+export const UPDATE_USER = 'UPDATE_USER';
+export const GET_USER = 'GET_USER';
+

@@ -1,0 +1,251 @@
+.react-bs-table-bordered {
+    border:none;
+    overflow-x: auto;
+}
+
+.react-bs-table-bordered .table {
+    min-width: 767px;
+}
+
+.react-bs-table .table-bordered > thead > tr > th,
+.react-bs-table .table-bordered > tbody > tr > th,
+.react-bs-table .table-bordered > tfoot > tr > th {
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #423d3b;
+    background: #f5f5f5 !important;
+}
+.react-bs-table .table-bordered tr > td:first-child,
+.react-bs-table .table-bordered tr > th:first-child {
+    max-width: 50px;
+    min-width: 50px;
+    width: 50px;
+}
+.react-bs-table .table-bordered tr > td:first-child + td,
+.react-bs-table .table-bordered tr > th:first-child + th {
+    max-width: 80px;
+    min-width: 80px;
+    width: 80px;
+}
+
+.react-bs-table .table-bordered > thead > tr > th .form-control,
+.react-bs-table .table-bordered > tbody > tr > th .form-control,
+.react-bs-table .table-bordered > tfoot > tr > th .form-control {
+    border-radius: 0px;
+    border: 1px solid #e9e7e1;
+    box-shadow: none;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.react-bs-table .table-bordered > thead > tr > th,
+.react-bs-table .table-bordered > thead > tr > td,
+.react-bs-table .table-bordered > tbody > tr > th,
+.react-bs-table .table-bordered > tbody > tr > td,
+.react-bs-table .table-bordered > tfoot > tr > th,
+.react-bs-table .table-bordered > tfoot > tr > td {
+    border: none;
+    border-bottom: 1px solid #e9e7e1;
+    font-size: 12px;
+    background: #fff;
+    padding: 8px 5px;
+    line-height: normal;
+    vertical-align: middle;
+    color: #423d3b;
+}
+
+
+
+.react-bs-table .table-bordered > tbody > tr:nth-child(even) > td {
+    background: #f7f8fa;
+}
+.react-bs-table .table-bordered > tbody > tr:nth-child(odd) > td {
+    background: #fff;
+}
+
+.react-bs-table .table-bordered > tbody > tr:hover > td {
+    background: rgba(232, 232, 232, 0.61);
+}
+
+
+
+.react-bs-table input[type="checkbox"] {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    top: 2px;
+    border: 1px solid rgba(149, 152, 154, 0.5);
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    margin: 0;
+    border-radius: 1px;
+}
+.react-bs-table input[type="checkbox"]:checked {
+    background: url('checkbox-close.png') no-repeat center center;
+}
+.react-bs-table input[type="checkbox"]:hover {
+}
+
+.react-bs-table-tool-bar {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+
+.portlet-box .btn-edit,
+.portlet-box .btn-show,
+.portlet-box .btn-delete {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border:none;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    -webkit-transition: ease all 0.3s;
+    -moz-transition: ease all 0.3s;
+    -o-transition: ease all 0.3s;
+    transition: ease all 0.3s;
+
+}
+.portlet-box .btn-edit:hover,
+.portlet-box .btn-delete:hover {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.31);
+}
+
+.portlet-box a.btn-edit, .portlet-box a.btn-show {
+    padding: 6px;
+}
+
+.portlet-box .btn-edit {
+    background: #34bfa3 !important;
+    color: #fff;
+}
+
+.portlet-box .btn-show {
+    background: gray !important;
+    color: #fff;
+}
+
+.portlet-box .btn-delete {
+    background: #f4516c !important;
+    color: #fff;
+}
+
+
+.portlet-box .btn {
+    height: 35px;
+    line-height: 35px;
+    padding: 0 30px;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.085em;
+    font-weight: 600;
+    border: none;
+    border-radius: 35px !important;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    display: inline-block;
+    text-decoration: none !important;
+    outline: none;
+    margin-right: 10px;
+    transition: ease all 0.3s;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.31);
+    margin-bottom: 5px;
+}
+.portlet-box .btn.btn-primary {
+    background: #5867dd !important;
+}
+
+.portlet-box .btn.btn-success {
+    background: #34bfa3 !important;
+}
+
+.portlet-box .btn.btn-info {
+    background: #36a3f7 !important;
+}
+
+.portlet-box .btn.btn-warning {
+    background: #ffb822 !important;
+    color: #fff;
+}
+
+.portlet-box .btn.btn-danger {
+    background: #f4516c !important;
+}
+
+
+.portlet-box .btn:hover{
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.31);
+}
+.react-bs-table-pagination .dropdown .btn {
+    background: #fff;
+    border-radius: 3px !important;
+    color: #000000;
+    border: 1px solid #ddd;
+    padding: 0 10px;
+    box-shadow: none !important;
+}
+.react-bs-table-pagination .dropdown .dropdown-menu {
+    border-radius: 0px;
+}
+
+.react-bs-table-pagination {
+    margin: 20px 0;
+}
+.react-bootstrap-table-page-btns-ul {
+    margin: 0;
+}
+.react-bootstrap-table-page-btns-ul > li {
+    margin: 0 3px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.react-bootstrap-table-page-btns-ul > li > a {
+    border-radius: 30px !important;
+    background: none;
+    padding: 0 15px;
+    text-align: center;
+    line-height: 28px;
+    color: #000;
+    font-size: 13px;
+    font-weight: 600;
+    border: 1px solid #ddd;
+}
+.react-bootstrap-table-page-btns-ul > li.active > a {
+    background: #34bfa3 !important;
+    border-color: #34bfa3 !important;
+}
+.react-bootstrap-table-page-btns-ul > li.page > a {
+    position: relative;
+    font-size: 0px;
+    color: transparent;
+}
+
+.modal-body {
+    font-size: 15px;
+}
+.ReactModal__Overlay {
+    display: flex;
+    background-color: rgba(0,0,0,.5) !important;
+}
+
+.portlet-box{
+    box-shadow: 0 1px 15px 1px rgba(69,65,78,.08);
+}
+.portlet-box .portlet-heading {
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+.portlet-box .portlet-heading h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.portlet-box .portlet-body {
+    padding: 20px;
+}
